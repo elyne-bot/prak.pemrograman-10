@@ -3,7 +3,7 @@
 #include <ctime>
 using namespace std;
 
-// ===== Fungsi Pencarian Sekuensial (Sesuai Modul) =====
+// Fungsi Pencarian Sekuensial 
 int cari_sekuensial(int data[], int s, int cari) {
     bool ketemu;
     int i = 0;
@@ -14,13 +14,13 @@ int cari_sekuensial(int data[], int s, int cari) {
     }
 
     if (ketemu) {
-        return i;          // nilai positif menunjukkan langkah sampai ketemu
+        return i;          
     } else {
-        return -1 * i;     // nilai negatif menunjukkan langkah sampai data habis
+        return -1 * i;     
     }
 }
 
-// ===== Selection Sort untuk mengurutkan data =====
+// Selection Sort untuk mengurutkan data 
 void selection_sort(int data[], int n) {
     for (int i = 0; i < n - 1; i++) {
         int minIndex = i;
@@ -84,3 +84,4 @@ int main() {
 
     return 0;
 }
+
