@@ -44,7 +44,7 @@ int main() {
 
     cout << "Membuat 1000 data acak\n";
     for (int i = 0; i < N; i++) {
-        data[i] = rand() % 10000;
+        data[i] = rand() % 1000;
     }
 
    
@@ -84,4 +84,5 @@ int main() {
 
     return 0;
 }
+
 
