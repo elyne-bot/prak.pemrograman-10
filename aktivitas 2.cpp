@@ -45,7 +45,7 @@ int main() {
     }
 
     // Pencarian biner
-    cout << "\n=== HASIL PENCARIAN BINER ===\n";
+    cout << "\n HASIL PENCARIAN BINER \n";
     for (int i = 0; i < 10; i++) {
         int hasil = cari_biner(data, N, cari[i]);
 
@@ -58,3 +58,4 @@ int main() {
 
     return 0;
 }
+
