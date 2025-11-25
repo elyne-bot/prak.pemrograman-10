@@ -5,14 +5,14 @@ int main() {
 	const int N = 10;
 	int data[N] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
-	// ---- Tampilkan data awal
+	// Tampilkan data awal
 	cout << "Data awal:\n";
 	for (int i = 0; i < N; i++) {
 		cout << data[i] << " ";
 	}
 	cout << endl;
 
-	// ---- Selection Sort untuk mengurutkan data
+	//Selection Sort untuk mengurutkan data
 	for (int i = 0; i < N - 1; i++) {
 		int minIndex = i;
 		for (int j = i + 1; j < N; j++) {
@@ -25,7 +25,7 @@ int main() {
 		data[minIndex] = temp;
 	}
 
-	// ---- Tampilkan data setelah diurutkan
+	//Tampilkan data setelah diurutkan
 	cout << "\nData setelah diurutkan:\n";
 	for (int i = 0; i < N; i++) {
 		cout << data[i] << " ";
@@ -37,7 +37,7 @@ int main() {
 
 	cout << "\nPencarian Biner\n";
 
-	// ---- Cari paling kecil
+	//Cari paling kecil
 	int low = 0, high = N - 1, langkah = 0, ketemu = -1;
 	while (low <= high) {
 		langkah++;
@@ -79,3 +79,4 @@ int main() {
 
 	return 0;
 }
+
